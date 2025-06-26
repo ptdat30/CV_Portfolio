@@ -1,7 +1,7 @@
 {
   "name": "digital-cv-portfolio",
   "version": "1.0.0",
-  "homepage": "https://ptdat30.github.io/digital-cv-portfolio",
+  "homepage": "https://ptdat30.github.io/CV_Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -10,8 +10,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.0",
-    "react-scripts": "5.0.1"
+    "react-router-dom": "^7.6.2",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [
