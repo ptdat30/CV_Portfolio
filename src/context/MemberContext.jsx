@@ -1,5 +1,6 @@
 // src/context/MemberContext.jsx
-import { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useEffect } from 'react';
+import { initialMembers } from '../data'; // Đảm bảo dòng này có mặt và không trùng lặp
 
 export const MemberContext = createContext();
 
@@ -24,5 +25,4 @@ export const MemberProvider = ({ children }) => {
         </MemberContext.Provider>
     );
 };
-
-export { initialMembers } from '../data';
+// Đã bỏ dòng "export { initialMembers } from '../data';" ở đây
